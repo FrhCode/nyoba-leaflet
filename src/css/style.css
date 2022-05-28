@@ -1,0 +1,15 @@
+#map {
+    height: 100vh;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking {
+    animation: fade-in 300ms ease-in-out 0s;
+}
